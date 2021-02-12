@@ -1,2 +1,19 @@
-h1 {border-style: solid; background-color:rgb(65, 163, 106); text-align: center; margin: auto;}
-ul{list-style-type: none;padding: 0; margin: 0;}
+h1{border-style: solid; background-color:rgb(160, 160, 160); text-align: center; margin: auto; padding: 10px;}
+h2{text-align: center; margin: auto;padding: 5px;}
+h3{text-align: center; border: 1px solid black;}
+
+ul{list-style-type: none; padding: 0; margin: 0; overflow: hidden;}
+#nav {display: inline-block; padding: 14px 16px; border: 1px solid rgb(0, 0, 0);font-size: 70%; background-color:rgb(131, 131, 131);}
+#nav:hover {background-color: rgb(0, 0, 0); color: white;}
+
+#search {background-color: rgb(173, 173, 173); border-style: solid ;padding: 11px;}
+input[type=text] {width: 93%; padding: 12px 20px 12px 40px; box-sizing: border-box; margin-top: 3mm; font-size:15px}
+
+#colourPicker{width: 32%; border-style: solid;}
+
+#cart{width: 49%; font-size: 18px;}
+
+.row:after {content: "";display: table;clear: both;}
+.column {float: left; width: 50%; padding: 15px; margin: auto;}
+@media screen and (max-width:600px) {.column { width: 100%;}}
+
